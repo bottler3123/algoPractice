@@ -4,6 +4,7 @@ import java.util.*;
 import java.io.*;
 
 public class Main_15661_링크와스타트 {
+	// boj silver1
 	static int N, result;
 	static int [][] arr;
 

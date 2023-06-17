@@ -24,12 +24,12 @@ public class Main_14719_빗물 {
 		int result = 0;
 		
 		// map 표시
-		for (int i = 0; i < H; i++) {
-			for (int j = 0; j < W; j++) {
-				System.out.print(map[i][j] + " ");
-			}
-			System.out.println();
-		}
+//		for (int i = 0; i < H; i++) {
+//			for (int j = 0; j < W; j++) {
+//				System.out.print(map[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
 		
 		for (int i = 0; i < H; i++) {
 			for (int j = 0; j < W -1; j++) {

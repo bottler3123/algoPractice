@@ -16,7 +16,7 @@ public class Main_17626_FourSquares {
 			
 			for (int j = 1; j*j <= i; j++) {
 				int num = i - j * j;
-				min = min > num ? num : min;
+				min = min > dp[num] ? dp[num] : min;
 			}
 			
 			dp[i] = min + 1;

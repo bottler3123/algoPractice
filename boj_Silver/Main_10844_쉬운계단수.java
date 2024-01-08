@@ -25,7 +25,7 @@ public class Main_10844_쉬운계단수 {
 			result += step(N,i);
 		}
 		
-		System.out.println(result);
+		System.out.println(result % 1000000000);
 	}
 
 	private static long step(int digit, int val) {
@@ -40,7 +40,7 @@ public class Main_10844_쉬운계단수 {
 			} else if (val == 9) {
 				dp[digit][val] = step(digit -1, 8);
 			} else {
-				dp[digit][val] = step(digit -1, val -1) + step(digit-1, val + 1);
+				dp[digit][val] = step(digit -1, val -1) + step(digit - 1, val + 1);
 			}
 		}
 		

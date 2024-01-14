@@ -13,7 +13,7 @@ public class Main_24313_알고리즘수업점근적표기1 {
 		int n = sc.nextInt();
 		
 		boolean check = a1 * n + a0 <= c * n ? true : false;
-		if (check) {
+		if (check && a1 <= c ) {
 			System.out.println(1);
 		} else {
 			System.out.println(0);

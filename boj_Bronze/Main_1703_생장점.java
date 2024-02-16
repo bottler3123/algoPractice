@@ -23,7 +23,6 @@ public class Main_1703_생장점 {
 			}
 			
 			System.out.println(leef);
-			sc.nextLine();
 		}
 	}
 }

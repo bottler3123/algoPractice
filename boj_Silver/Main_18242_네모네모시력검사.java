@@ -49,7 +49,7 @@ public class Main_18242_네모네모시력검사 {
 					y -= dy[i];
 					break;
 				}
-				System.out.println(x + " " + y + " " + map[x][y] + " " + check);
+//				System.out.println(x + " " + y + " " + map[x][y] + " " + check);
 				
 				if (map[x][y] == '#') {
 					x += dx[i];

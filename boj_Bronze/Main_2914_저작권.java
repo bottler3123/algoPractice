@@ -1,0 +1,16 @@
+package algo;
+
+import java.util.Scanner;
+
+public class Main_2914_저작권 {
+	// boj Bronze3
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		int I = sc.nextInt();
+		
+		int result = A * (I - 1) + 1;
+		System.out.println(result);
+	}
+}

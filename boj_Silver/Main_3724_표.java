@@ -34,10 +34,10 @@ public class Main_3724_표 {
 				}
 				
 //				System.out.println(num);
+//				System.out.println(num.compareTo(sum));
 				if (i == 0) {
 					sum = num;
 				}
-				System.out.println(num.compareTo(sum));
 				if (num.compareTo(sum) >= 0) {
 					result = i;
 					sum = num;

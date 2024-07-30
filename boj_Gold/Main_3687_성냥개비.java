@@ -53,6 +53,7 @@ public class Main_3687_성냥개비 {
 				}
 			}
 			
+			// 결과출력
 			System.out.println(small + " " + big);
 		}
 	}
